@@ -10,6 +10,7 @@
   padding: 0 20px;
   font-size: 18px;
   border: 1px solid #ccc;
+  border-radius: 4px;
   min-width: 80%;
 }
 
@@ -18,6 +19,7 @@
   height: 40px;
   width: 40px;
   background: #f04c64;
+  border-radius: 4px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -25,6 +27,6 @@
 }
 
 .form button[type="submit"]:hover {
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 200ms;
   background: #f87085;
 }

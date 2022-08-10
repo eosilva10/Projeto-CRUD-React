@@ -15,8 +15,9 @@
 }
 
 .tarefas li:hover{
+  border-radius: 4px;
   background: #51d5ce;
-  transition: all ease-in-out 500ms;
+  transition: all ease-in 200ms;
 }
 
 .tarefas li .edit {
@@ -38,5 +39,5 @@
 .tarefas li .edit,
 .tarefas li .delete {
   cursor: pointer;
-  transition: all 200ms;
+  transition: all ease-in-out 200ms;
 }

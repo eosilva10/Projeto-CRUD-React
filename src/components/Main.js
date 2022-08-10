@@ -114,7 +114,7 @@ export default class Main extends Component {
     return (
       // PARA USARMOS CLASSE E ID EM JSX TEMOS UMA NOTAÇÃO DIFERENTE
       <div className="main">
-        <h1> Lista de tarefas </h1>
+        <h1> LISTA DE TAREFAS </h1>
 
         <Form
           handleSubmit={this.handleSubmit}
